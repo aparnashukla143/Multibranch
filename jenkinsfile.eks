@@ -1,5 +1,6 @@
 
-    node ('master')
+    pipeline {
+    agent (label:'master')
 	{
     stages {
         stage('Git complilation') {
@@ -8,6 +9,7 @@
             }
         }
 		
+	}
 	}
 	}
 
