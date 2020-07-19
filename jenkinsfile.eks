@@ -1,5 +1,5 @@
 
-    node (master)
+    node ('master')
 	{
     stages {
         stage('Git complilation') {
